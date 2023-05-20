@@ -1,0 +1,24 @@
+﻿{
+    "http_api": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 5000
+    },
+    "database": true,
+    "views": 2000,
+    "minimum": 22.0,
+    "maximum": 55.0,
+    "proxy": {
+        "category": "f",
+        "proxy_type": "http",
+        "filename": "https://www.sslproxies.org/",
+        "authentication": false,
+        "proxy_api": true,
+        "refresh": 0.0
+    },
+    "background": false,
+    "bandwidth": false,
+    "playback_speed": 2,
+    "max_threads": 8,
+    "min_threads": 3
+}
